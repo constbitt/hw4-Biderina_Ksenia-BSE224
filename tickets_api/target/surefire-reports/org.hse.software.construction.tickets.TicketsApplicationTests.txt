@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.hse.software.construction.tickets.TicketsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.726 s - in org.hse.software.construction.tickets.TicketsApplicationTests
