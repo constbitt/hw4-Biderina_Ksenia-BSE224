@@ -2,6 +2,7 @@
 # I. Коллекция Postman
 Коллекция доступна по ссылке:
 https://www.postman.com/payload-geologist-75900251/workspace/ordersystem
+
 Для того, чтобы запустить проект, нужно в корне написать: 
 		
 			docker-compose up -d
@@ -12,6 +13,7 @@ https://www.postman.com/payload-geologist-75900251/workspace/ordersystem
 ### Регистрация: http://localhost:8081/auth-api/register
 Нужно предоставить три непустые строки: никнейм, почту и пароль.
 В Postman нужно перейти в Body и выбрать raw.
+
 Пример корректного ввода:
 
 		{
@@ -44,6 +46,7 @@ https://www.postman.com/payload-geologist-75900251/workspace/ordersystem
 ### Аутентификация: http://localhost:8081/auth-api/authenticate
 Нужно предоставить две непустые строки: почту и пароль.
 В Postman нужно перейти в Body и выбрать raw.
+
 Пример корректного ввода:
 
 		{
@@ -155,6 +158,7 @@ https://www.postman.com/payload-geologist-75900251/workspace/ordersystem
 i - номер заказа
 
 Нужно предоставить только номер существующего заказа.
+
 Пример вывода при корректном вводе:
 
 		Order id = 1 details
