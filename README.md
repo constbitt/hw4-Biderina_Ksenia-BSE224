@@ -198,14 +198,25 @@ i - номер заказа
 - OrderService - класс, который обрабатывает запросы на создание заказов. Он выполняет проверку валидности введенных данных, создание нового заказа и сохранение его в базе данных.
 
 # IV. Список использованных технологий (библиотек, фреймворков)
-  -  `spring-boot-starter-data-jpa`: Для работы с базами данных через JPA.
+    -  `spring-boot-starter-data-jpa`: Для работы с базами данных через JPA.
+    
     -   `spring-boot-starter-security`: Для обеспечения безопасности.
+    
     -   `spring-boot-starter-web`: Для разработки веб-приложений.
+    
     -   `spring-boot-starter-test`: Для тестирования приложений.
+    
     -   `spring-boot-maven-plugin`: Для сборки и запуска Spring Boot приложений.
+    
     -   `org.postgresql:postgresql`: Драйвер для работы с PostgreSQL.
+    
     -   `com.mysql:mysql-connector-j`: Драйвер для работы с MySQL.
-    -   `org.projectlombok:lombok`: Для сокращения шаблонного кода с помощью аннотаций. Указано как optional и исключено в конфигурации плагина Maven.
+    
+    -   `org.projectlombok:lombok`: Для сокращения шаблонного кода с помощью аннотаций.
+    
     -   `io.jsonwebtoken:jjwt-api`: Основная библиотека для работы с JWT.
+    
     -   `io.jsonwebtoken:jjwt-impl`: Реализация библиотеки JWT.
+    
     -   `io.jsonwebtoken:jjwt-jackson`: Для интеграции с Jackson.
+    
